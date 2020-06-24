@@ -1,0 +1,70 @@
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    transition 1s;
+    padding: 15px;
+    width: 300px;
+}
+
+.gallery img:hover{
+    transform: scale(2);
+}
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #2F3035;
+    background-image: url(img/hi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image{
+    width: 80px;
+    height: 80px;
+}
+.container{
+    text-align: center;
+}
+
+header{
+    height: 118px;
+    text-align: center;
+}
+
+
+nav{
+   background-color: rgb(0,0,0,0.40);
+   text-align: center;
+   padding-top: 14px;
+   padding-bottom: 14px;
+   
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(0,0,0,0.730);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+footer p{
+    font-size: 15px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
